@@ -16,7 +16,7 @@ const routes: Routes = [
       { path: "dashboard", component: DashboardComponent},
       { path: "todo", component: GroupComponent},
      
-      { path: "", redirectTo: "/admin/dashboard", pathMatch: "full" },
+      { path: "", redirectTo: "todo", pathMatch: "full" },
     ],
   },
   
